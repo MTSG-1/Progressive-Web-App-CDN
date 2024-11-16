@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #f5e3cb !important;
+}
+
+nav {
+  background-color: #fff;
+  border-bottom: 2px #f8bbd0 solid;
+}
+
+nav .btn {
+  color: #212121;
+}
+
+nav.btn {
+  background-color: #212121;
+}
+
+nav i {
+  margin: 0 6px;
+}
+
+.container {
+  margin: 10px 0px;
+}
+
+.section {
+  color: #fff;
+  background-color: rgb(255, 153, 156, 0.6); /* พื้นหลังโปร่งใส */
+  padding: 4px 8px;
+  margin: 5px 0;
+  border-radius: 6px;
+}
+
+.menu-list {
+  padding: 0 10px;
+  border-bottom: #f8bbd0 solid;
+  background-image: url("/assets/img/01.jpg");
+  background-position: center;
+  background-size: contain;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.contact a.btn {
+  background-color: #f8bbd0;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 8px 12px;
+  margin: 2px;
+}
+
+.contact a.btn:active {
+  color: #fff;
+  border: #f8bbd0;
+}
+
+.item img {
+  width: auto;
+}
+
+.contact .card-header {
+  text-align: center;
+}
+
+.content .btn {
+  background-color: #f8bbd0;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+}
+
+.content .btn:hover {
+  background-color: #f8bbd0;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
